@@ -1,0 +1,83 @@
+* {
+    /* border: solid white 1px; */
+    font-family: 'Pixelify Sans';
+}
+
+body {
+    background-image: url(./images/wallpaper.jpg);
+    background-size: cover  ;
+    width: 100vw;
+    margin: 0px;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 5px;
+
+}
+
+.box {
+    color: white;
+    font-size: 5em;
+    display: grid;
+    place-items: center;
+    /* border: solid white 1px; */
+    background-color: rgba(255, 255, 255, 0.272);
+}
+
+.newBox:hover {
+    background-color: rgba(255, 255, 255, 0.653);
+}
+
+.win {
+    color: rgba(63, 255, 33, 0.89);
+    background-color: rgba(0, 255, 8, 0.272);
+    
+}
+
+.title {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+.display { 
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+input {
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    width: 100px;
+}
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    cursor: pointer;
+}
+
+
